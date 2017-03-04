@@ -1,5 +1,4 @@
 # golog
-golog package provide log rotate 
 This is a wrapper of logrus and lumberjack. It provide loglevel, output, json formwat and more import logrotate. 
 
 Example: 
