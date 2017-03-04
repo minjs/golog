@@ -1,5 +1,5 @@
 # golog
-This is a wrapper of logrus and lumberjack. It provide loglevel, output, json formwat and more import logrotate. 
+golog provides loglevel setup, output setup, json/txt formwat and more important logrotate!
 
 Example: 
 
