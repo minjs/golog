@@ -1,5 +1,5 @@
 # golog
-golog provides loglevel setup, output setup, json/txt formwat and more important logrotate!
+golog provides loglevel setup, output setup, json/txt formwat, source (file and line number) and more important logrotate!
 
 Example: 
 
