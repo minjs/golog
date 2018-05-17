@@ -83,6 +83,7 @@ func (l logger) SetFormatter(fm string) {
 	} else {
 		customFormatter := new(logrus.TextFormatter)
 		customFormatter.DisableColors = true
+		customFormatter.TimestampFormat = "2006-01-30T15:04:05.000Z07:00"
 		l.logEntry.Logger.Formatter = customFormatter
 		fmt.Println("setup log text format", fm)
 	}
